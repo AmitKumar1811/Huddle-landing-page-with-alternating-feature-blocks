@@ -1,0 +1,318 @@
+*
+{
+margin: 0%;
+padding:0%;    
+}
+body
+{
+width: 100%; 
+font-family: 'Open Sans', sans-serif;
+
+}
+.box
+{
+width: 100%;
+background-image: url("images/bg-hero-desktop.svg");
+background-position: center;
+background-size: cover;
+background-repeat: no repeat;
+background-color: #edfbfe;
+
+}
+.top
+{
+display: flex;    
+justify-content: space-between;
+align-items: center;
+margin-left:60px;
+margin-right:60px;
+}
+.tp
+{
+margin-top:50px;
+
+}
+.btn
+{
+margin-top:50px;
+   
+}
+.btn button
+{
+width:180px;
+height:50px;
+border:1px solid white;
+border-radius: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+color: #07043b;
+font-weight: 700;
+background-color: #fff;
+
+}
+.buttom
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 20px;
+margin-top: 60px;
+
+
+}
+.left
+{
+margin-left: 50px;
+font-weight: 600;    
+}
+.left h1
+{
+font-size:45px;
+line-height: 55px;    
+}
+.left p
+{
+margin-top:20px;
+margin-bottom:15px;
+font-size:20px;
+color: #555557;    
+}
+.left button
+{
+width:250px;
+height:45px;
+color:white;
+background-color: #fe52c0;
+font-weight:700;
+border:1px solid white;
+border-radius:25px;    
+}
+.right
+{
+margin-right: 50px;    
+}
+.buttom img
+{
+width:600px;    
+}
+
+.box1
+{
+width:100%;    
+}
+.box1a
+{
+width:90%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border: 1px solid white;
+border-radius:10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin:50px auto 0 auto;
+height:400px;
+   
+}
+.l1
+{
+margin:50px;
+font-weight: 600;
+margin-top:150px;
+}
+.l1 h2
+{
+font-size:30px;
+margin-bottom:10px;
+
+}
+.l1 p
+{
+color: #555557;
+font-size:18px;    
+}
+.r1
+{
+margin:50px;
+
+}
+.r1 img
+{
+width:350px;    
+}
+.box1c
+{
+width:90%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border: 1px solid white;
+border-radius:10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin:50px auto 200px auto;
+height:400px;
+   
+}
+.l3
+{
+margin:50px;
+font-weight: 600;
+margin-top:150px;
+
+}
+.l3 h2
+{
+font-size:30px;
+margin-bottom:10px;
+
+}
+.l3 p
+{
+color: #555557;
+font-size:18px;    
+}
+.r3
+{
+margin:50px;
+
+}
+.r3 img
+{
+width:350px;    
+}
+.box1b
+{
+width:90%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border: 1px solid white;
+border-radius:10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin:50px auto 0 auto;
+height:400px;
+   
+}
+.r2
+{
+margin:50px;
+font-weight: 600;
+margin-top:150px;
+
+}
+.r2 h2
+{
+font-size:30px;
+margin-bottom:10px;
+
+}
+.r2 p
+{
+color: #555557;
+font-size:18px;    
+}
+.l2
+{
+margin:50px;
+}
+.l2 img
+{
+width:350px;    
+}
+footer
+{
+width: 100%;
+height:350px;
+background-color: #00252e;
+color: white;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap:30px;
+padding-left:60px;
+padding-top:30px;
+font-weight: 400;
+position: relative;
+
+}
+.box2
+{
+width:600px;
+height:200px; 
+background-color: white;
+color: #07043b;
+text-align: center;
+position: absolute;
+top:-100px;
+left:30%;
+border: 1px solid white;
+border-radius: 10px; 
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+}
+.box2 h1
+{
+font-size: 35px;
+font-weight: 600;
+margin-top:30px;
+
+}
+.box2 button
+{
+margin-top:30px;
+width:220px;
+height:45px;
+background-color: #fe52c0;
+border-radius: 20px;
+border: 1px solid white;
+color: white;
+font-weight:600;
+}
+
+.cl2>ul,.cl3>ul,.cl4>ul
+{
+margin-top: 120px;    
+list-style-type: none;
+text-decoration: none;       
+
+}
+.cl4>ul
+{
+display: flex;    
+}
+.cl1
+{
+margin-top:60px;    
+}
+.logolast>img
+{
+-webkit-filter: brightness(0) invert(1);
+filter: brightness(0) invert(1);
+}
+.phone , .email , .location
+{
+display: flex;
+margin-top:20px; 
+
+}
+
+.ph1 , .em1 , .lc1
+{
+margin-right:20px;
+}
+footer li
+{
+padding-bottom: 15px; 
+}
+.cl4>ul>li
+{
+margin-right:30px; 
+}
+.cl4>ul>li>a
+{
+border: 1px solid #fff;
+border-radius: 50%;
+font-size: 1.25rem;
+width: 2.25rem;
+height: 2.25rem;
+line-height: 2.25rem;
+text-align: center;
+display: inline-block;
+color: #fff;
+}
+.cl4>ul>li>a:hover
+{
+color: aqua;    
+}
